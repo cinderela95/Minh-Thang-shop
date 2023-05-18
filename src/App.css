@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.box {
+  display: flex;
+  width: 100%;
+  background-color: #1a1c28;
+  height: auto;
+  flex-wrap: wrap-reverse;
+  flex-direction: row;
+}
+.item {
+  width: 250px;
+  height: 150px;
+}
+.item:nth-of-type(1) {
+  background-color: #bf4470;
+}
+.item:nth-of-type(2) { 
+  background-color: #ffa400; 
+}
+.item:nth-of-type(3) {
+  background-color: #07a787;
+}
